@@ -50,7 +50,7 @@ block content
                     label.col-sm-3 Status 
                     select.col-sm-3.form-control(name="status") 
                         each item in statuses 
-                            option(value-item.id) #{item.name} 
+                            option(value=item.id) #{item.name} 
                 .form-row.justify-content-center.mt-5 
                     input.btn.btn-secondary.form-control.col-sm-6(type="submit", value="Add")
         
